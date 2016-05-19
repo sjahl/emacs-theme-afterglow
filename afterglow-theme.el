@@ -71,7 +71,7 @@
 	`(hl-line ((,class (:background  ,bg2))))
 	`(fringe ((,class (:background ,bg2 :foreground ,fg4))))
 	`(cursor ((,class (:background ,warning))))
-        `(show-paren-match-face ((,class (:background ,warning))))
+        `(show-paren-match-face ((,class (:background ,keyword :foreground ,warning))))
         `(isearch ((,class (:bold t :foreground ,warning :background ,bg3))))
         `(mode-line ((,class (:box (:line-width 1 :color ,fg4) :bold nil :foreground ,fg4 :background ,bg2))))
 	`(mode-line-inactive ((,class (:box (:line-width 1 :color ,bg2) :foreground ,bg2 :background ,bg1 :weight normal))))
