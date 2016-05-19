@@ -2,7 +2,7 @@
 
 An emacs theme based on [Afterglow](https://github.com/YabataDesign/afterglow-theme) for sublime text.
 
-Place afterglow-theme.el in your emacs theme load path, and `load-theme afterglow`.
+Place afterglow-theme.el in your emacs theme load path, and `M-x load-theme RET afterglow`.
 
 ### Screenshot
 
