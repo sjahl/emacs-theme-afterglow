@@ -58,7 +58,8 @@
        (str     "#b4c973")
        (type    "#6c99bb")
        (var     "#D0D0FF")
-       (warning "#e5b567"))
+       (cursor  "#e5b567")
+       (warning "#a1617a"))
    (custom-theme-set-faces
    'afterglow
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
@@ -78,8 +79,8 @@
         `(highlight ((,class (:foreground ,fg3 :background ,bg3))))
 	`(hl-line ((,class (:background  ,bg2))))
 	`(fringe ((,class (:background ,bg2 :foreground ,fg4))))
-	`(cursor ((,class (:background ,warning))))
-        `(show-paren-match-face ((,class (:background ,keyword :foreground ,warning))))
+	`(cursor ((,class (:background ,cursor))))
+        `(show-paren-match-face ((,class (:background ,keyword :foreground ,cursor))))
         `(isearch ((,class (:bold t :foreground ,warning :background ,bg3))))
         `(mode-line ((,class (:box (:line-width 1 :color ,fg4) :bold nil :foreground ,fg4 :background ,bg2))))
 	`(mode-line-inactive ((,class (:box (:line-width 1 :color ,bg2) :foreground ,bg2 :background ,bg1 :weight normal))))
